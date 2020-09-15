@@ -40,9 +40,9 @@ function setup() {
 	ground = Bodies.rectangle(width/2, 650, width, 10 , {isStatic:true} );
  	World.add(world, ground);
 	
-	downBody = new Box(400,600,200,20);
-	sideBody1 = new Box(350,600,20,100);
-	sideBody2 = new Box(500,600,20,100);
+	downBody = new Box(400,600,200,20,{isStatic:true} );
+	sideBody1 = new Box(350,600,20,100,{isStatic:true} );
+	sideBody2 = new Box(500,600,20,100,{isStatic:true} );
 	Engine.run(engine);
   
 }
