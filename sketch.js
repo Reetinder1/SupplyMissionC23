@@ -45,7 +45,7 @@ function setup() {
 	
 	downBody = new Box(400, 635, 200, 20, {isStatic:true} );
 	
-	sideBody2 = new Box(600, 610, 20, 100, {isStatic:true} );
+	sideBody2 = new Box(500, 610, 20, 100, {isStatic:true} );
 	Engine.run(engine);
   
 }
