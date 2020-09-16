@@ -42,7 +42,7 @@ function setup() {
 	
 	sideBody2 = new Box(500, 610, 20, 100, {isStatic:true} );
 	
-	sideBody1 = new Box(300, 610, 20, 100, {isStatic:true} );
+	sideBody1 = new Box(300,640, 20, 100, {isStatic:true} );
 	
 	downBody = new Box(400, 635, 200, 20, {isStatic:true} );
 	
