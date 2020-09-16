@@ -41,11 +41,11 @@ function setup() {
  	World.add(world, ground);
 	
 	
-	sideBody1 = new Box(300, 610, 20, 100, );
+	sideBody1 = new Box(300, 610, 20, 100, {isStatic:true} );
 	
-	downBody = new Box(400, 635, 200, 20, );
+	downBody = new Box(400, 635, 200, 20, {isStatic:true} );
 	
-	sideBody2 = new Box(500, 610, 20, 100, );
+	sideBody2 = new Box(600, 610, 20, 100, {isStatic:true} );
 	Engine.run(engine);
   
 }
