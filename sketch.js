@@ -64,11 +64,13 @@ function draw() {
    helicopterSprite.x = helicopterSprite.x+10;   
   }	
 	
+  packageBody.position.x = helicopterSprite.position.x;
+	
   downBody.display();
   sideBody1.display();
   sideBody2.display();
   drawSprites();
- 
+
 }
 
 function keyPressed() {
