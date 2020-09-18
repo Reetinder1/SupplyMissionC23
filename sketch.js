@@ -58,7 +58,7 @@ function draw() {
   packageSprite.y= packageBody.position.y 
   
   if(keyCode === LEFT_ARROW){
-    helicopterSprite.x = helicopter.x-10; 
+    helicopterSprite.x = helicopterSprite.x-10 
   }	
 	
   downBody.display();
