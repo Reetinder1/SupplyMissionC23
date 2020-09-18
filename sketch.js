@@ -32,7 +32,7 @@ function setup() {
 	engine = Engine.create();
 	world = engine.world;
 
-	packageBody = Bodies.circle(width/2 , 200 , 5 , {restitution:0.3, isStatic:true});
+	packageBody = Bodies.circle(width/3, 200 , 5 , {restitution:0.3, isStatic:true});
 	World.add(world, packageBody);
 	
 
@@ -59,6 +59,9 @@ function draw() {
   
   if(keyCode === LEFT_ARROW){
     helicopterSprite.x = helicopterSprite.x-10; 
+  }	
+  if(keyCode === RIGHT_ARRROW){
+   helicopterSprite.x = helicopterSprite.+10;   
   }	
 	
   downBody.display();
