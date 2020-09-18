@@ -37,7 +37,7 @@ function setup() {
 	
 
 	//Create a Ground
-	ground = Bodies.rectangle(width/2, 650, width, 10 , {isStatic:true} );
+	ground = Bodies.rectangle(width/4, 650, width, 10 , {isStatic:true} );
  	World.add(world, ground);
 	
 	downBody = new Box(400, 635, 200, 20, {isStatic:true} );
@@ -58,7 +58,7 @@ function draw() {
   packageSprite.y= packageBody.position.y 
   
   if(keyCode === LEFT_ARROW){
-    helicopterSprite.x = helicopterSprite.x-10 
+    helicopterSprite.x = helicopterSprite.x-10; 
   }	
 	
   downBody.display();
