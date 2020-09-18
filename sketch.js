@@ -61,7 +61,7 @@ function draw() {
     helicopterSprite.x = helicopterSprite.x-10; 
   }	
   if(keyCode === RIGHT_ARRROW){
-   helicopterSprite.x = helicopterSprite.+10;   
+   helicopterSprite.x = helicopterSprite.x+10;   
   }	
 	
   downBody.display();
