@@ -32,7 +32,7 @@ function setup() {
 	engine = Engine.create();
 	world = engine.world;
 
-	packageBody = Bodies.circle(width/2, 200 , 5 , {restitution:0.3, isStatic:true});
+	packageBody = Bodies.circle(width/4, 200 , 5 , {restitution:0.3, isStatic:true});
 	World.add(world, packageBody);
 	
 
@@ -64,7 +64,7 @@ function draw() {
    helicopterSprite.x = helicopterSprite.x+10;   
   }	
 	
-  packageBody.position.x = helicopterSprite.position.x;
+  
 	
   downBody.display();
   sideBody1.display();
@@ -79,7 +79,7 @@ function keyPressed() {
     // Look at the hints in the document and understand how to make the package body fall only on
     Matter.Body.setStatic(packageBody,false);
   
-   packageSprite.x = 359; 
+   
      
   }
 }
