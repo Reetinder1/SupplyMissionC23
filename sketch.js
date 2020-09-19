@@ -79,8 +79,8 @@ function keyPressed() {
     // Look at the hints in the document and understand how to make the package body fall only on
     Matter.Body.setStatic(packageBody,false);
   
-   packageBody.x = 0; 
-   packageBody.y = 0;	  
+   packageBody.x = 359; 
+     
   }
 }
 
